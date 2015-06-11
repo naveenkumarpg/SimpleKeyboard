@@ -1,0 +1,138 @@
+/* CSS Document */
+body, html {
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	color: #161208;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px
+}
+ul{ 
+	padding: 0px;
+	margin: 0px;
+}
+.container{
+	width: 100%;
+	max-width: 800px;
+	margin: 0px auto;
+}
+.keyboard{
+	width: 100%;
+	background: #f2f2f2;
+	padding: 30px;
+	float: left;
+	margin-top: 8%;
+}
+#typingarea{
+	width: 100%;
+	height: 200px;
+	border: 0px;
+	text-align: left;
+	font-size: 14px;
+	color: #000;
+	border:0px;
+	outline: none;
+}
+
+.keysholder{
+	float: left;
+	display: block;
+}
+.keysholder li{
+	float: left;
+	display: block;
+	background: #fff;
+	margin: 4px;
+	padding: 16px 3px;
+	color: #474d5f;
+	text-align: center;
+	font-size: 11px;
+	border-radius: 5px;
+	cursor: pointer;
+	position: relative;
+}
+
+.smallsize{
+	width: 41px;
+}
+.mediumone{
+	width: 70px;
+}
+.mediumtwo{
+	width: 90px;
+}
+.mediumthree{
+	width: 76px;
+}
+.mediumfour{
+	width: 110px;
+}
+.sizemax{
+	width: 785px;
+}
+
+.blinker {
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+
+    animation-name: blinker;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    color: #ff0000;
+}
+
+@-moz-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+.tocaps li[data-caps="yes"], .shifted li[data-caps="yes"] {
+	text-transform: capitalize;
+}
+
+.capslock{
+	background: #ff0000;
+	border-radius: 5px;
+    float: left;
+    height: 5px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
